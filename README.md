@@ -24,6 +24,15 @@ Copy the swift file `SwiftStockKit` to your project.
 
 Supported in a later update. 
 
+### Cathage
+Build all carthage dependencies:
+
+		carthage update --platform iOS
+				
+When the command is ready drag the files (.framework) to the project. For more information check the officail Carthage page (https://github.com/Carthage/Carthage#adding-frameworks-to-an-application)
+
+__Pick one of the both approaches - Pods or Carthage, not both of them, they do the same thing.__
+
 ## Usage
 
 #### Quote Search
